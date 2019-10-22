@@ -1,12 +1,12 @@
 # code your #position_taken? method here!
 
-def position_taken?(board = [], index)
+def position_taken?(board, index)
   
   
   
 end
 
-board = Array.new(9, " ")
+board = []
 index = 0
 
 position_taken(board, index)
