@@ -16,5 +16,12 @@ board = Array.new(9, " ")
 index = 0
 
 position_taken?(board, index)
-position_taken?([])
-  
+
+board[0] = nil
+position_taken?(board, index)
+
+board[0] = "X"
+position_taken?(board, index)
+
+board[0] = "O"
+position_taken?(board, index)
