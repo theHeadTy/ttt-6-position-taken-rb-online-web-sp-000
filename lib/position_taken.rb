@@ -2,7 +2,7 @@
 
 def position_taken(board = [], index)
   
-  if board.at
+  if !board.at(index)
     return nil
     
   end
