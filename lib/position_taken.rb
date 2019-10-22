@@ -3,7 +3,7 @@
 def position_taken?(board, index)
   
   if !board.at(index) 
-    return flase
+    return false
   end
   
   
