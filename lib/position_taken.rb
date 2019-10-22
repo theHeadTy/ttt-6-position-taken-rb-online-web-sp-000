@@ -2,7 +2,7 @@
 
 def position_taken?(board, index)
   
-  if arr.at(index).empty?
+  arr.at(index).empty?
     return false
   
   
