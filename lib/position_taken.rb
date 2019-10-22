@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-def position_taken(board, index)
+def position_taken(board = [], index)
   
   if !board.at(index)
     return nil
@@ -9,5 +9,5 @@ def position_taken(board, index)
   
 end
 
-position_taken([" ", " ", " ", " ", " ", " ", " ", " ", " "], 5)
+position_taken([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0)
   
