@@ -9,5 +9,5 @@ def position_taken(board = [], index)
   
 end
 
-  
+position_taken([" ", " ", " ", " ", " ", " ", " ", " ", " "]
   
