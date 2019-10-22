@@ -6,7 +6,7 @@ def position_taken(board = [], index)
   
 end
 
-board = []
+board = Array.new(9, " ")
 index = 0
 
 position_taken(board, index)
