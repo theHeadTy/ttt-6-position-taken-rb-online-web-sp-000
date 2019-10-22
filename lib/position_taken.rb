@@ -4,13 +4,11 @@ def position_taken?(board, index)
   
   if board.at(index) == "X" or board.at(index) == "O"
     return true
-  end
   
-  if !!board.at(index)
+  elsif !!board.at(index)
     return false
-  end
   
-  if board.at(index) == nil
+  elsif board.at(index) == nil
     return false
   end
   
