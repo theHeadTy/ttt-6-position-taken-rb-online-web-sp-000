@@ -2,7 +2,9 @@
 
 def position_taken?(board, index)
   
-  if 
+  if !board.at(index) 
+    return nil
+  end
   
   
 end
