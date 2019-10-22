@@ -4,6 +4,8 @@ def position_taken?(board, index)
   
   if !!board.at(index)
     return false
+  elsif board.at(index) == nil
+    return false
   end
   
   
