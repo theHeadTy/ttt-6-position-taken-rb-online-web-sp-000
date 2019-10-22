@@ -6,8 +6,11 @@ def position_taken?(board, index)
     return false
   elsif board.at(index) == nil
     return false
+  elsif board.at(index) == "X"
+    return "X"
+  elsif board.at(index) == "O"
+    return "O"
   end
-  
   
 end
 
